@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+}
+
+#card-login {
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.t-card {
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.img-logo {
+    border: none;
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.t-input {
+    border-radius: 30px;
+    text-align: center;
+}
+
+.btn-custom {
+
+    border-radius: 30px;
+    background-color: red;
+    white-space: normal;
+}
+
+.btn-custom:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: rgb(155, 11, 11);
+    font-size: large;
+    color: white;
+}
+
+.link:hover {
+
+    color: aqua !important;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+#navbarNav .navbar-nav .nav-item .nav-link:hover{
+    color:red !important;
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
